@@ -18,6 +18,8 @@ const Forms = lazy(() => import('../../DemoPages/Forms'));
 const Tables = lazy(() => import('../../DemoPages/Tables'));
 const Dev = lazy(() => import('../../DemoPages/Dev'));
 const Custom = lazy(() => import('../../DemoPages/Custom'));
+const Home = lazy(() => import('../../DemoPages/Home'));
+
 
 const AppMain = () => {
 
@@ -215,10 +217,24 @@ const AppMain = () => {
             }>
                 <Route path="/custom" component={Custom}/>
             </Suspense>
+             {/* home */}
+
+             <Suspense fallback={
+                <div className="loader-container">
+                    <div className="loader-container-inner">
+                        <h6 className="mt-3">
+                            Please wait while we load all the Elements examples
+                            <small>Because this is a demonstration we load at once all the Elements examples. This wouldn't happen in a real live app!</small>
+                        </h6>
+                    </div>
+                </div>
+            }>
+                <Route path="/home" component={Home}/>
+            </Suspense>
 
 
             <Route exact path="/" render={() => (
-                <Redirect to="/dashboards/crm"/>
+                <Redirect to="/dashboards/analytics"/>
             )}/>
             <ToastContainer/>
         </Fragment>

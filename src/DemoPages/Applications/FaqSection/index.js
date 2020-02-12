@@ -87,13 +87,13 @@ export default class FaqSection extends Component {
                                             <DropdownItem header className="pt-0">
                                                 Fixed Menu
                                             </DropdownItem>
-                                            <Button color="primary"
+                                            {/* <Button color="primary"
                                                 className={classnames("mb-1 dropdown-item", {active: this.state.activeTab === '1'})}
                                                 onClick={() => {
                                                     this.toggle('1');
                                                 }}>
                                                 Tab Example 1
-                                            </Button>
+                                            </Button> */}
                                             <Button color="primary"
                                                 className={classnames("mb-1 dropdown-item", {active: this.state.activeTab === '2'})}
                                                 onClick={() => {
@@ -132,58 +132,31 @@ export default class FaqSection extends Component {
                                                                 aria-expanded={this.state.accordion[0]}
                                                                 aria-controls="collapseOne">
                                                             <h3 className="form-heading">
-                                                                Account Information
-                                                                <p>Enter your user informations below</p>
+                                                                
                                                             </h3>
                                                         </Button>
                                                     </CardHeader>
                                                     <Collapse isOpen={this.state.accordion[0]} data-parent="#accordion"
                                                               id="collapseOne" aria-labelledby="headingOne">
                                                         <CardBody>
-                                                            <Row form>
+                                                            <Row >
                                                                 <Col md={6}>
-                                                                    <FormGroup>
-                                                                        <Label for="exampleEmail2">Email</Label>
-                                                                        <Input type="email" name="email" id="exampleEmail2"
-                                                                               placeholder="with a placeholder"/>
-                                                                    </FormGroup>
+                                                                    
                                                                 </Col>
                                                                 <Col md={6}>
-                                                                    <FormGroup>
-                                                                        <Label for="examplePassword555">Password</Label>
-                                                                        <Input type="password" name="password" id="examplePassword555"
-                                                                               placeholder="password placeholder"/>
-                                                                    </FormGroup>
+                                                                    
                                                                 </Col>
                                                             </Row>
-                                                            <FormGroup>
-                                                                <Label for="exampleAddress">Address</Label>
-                                                                <Input type="text" name="address" id="exampleAddress"
-                                                                       placeholder="1234 Main St"/>
-                                                            </FormGroup>
-                                                            <FormGroup>
-                                                                <Label for="exampleAddress2">Address 2</Label>
-                                                                <Input type="text" name="address2" id="exampleAddress2"
-                                                                       placeholder="Apartment, studio, or floor"/>
-                                                            </FormGroup>
-                                                            <Row form>
+                                                           
+                                                            <Row >
                                                                 <Col md={6}>
-                                                                    <FormGroup>
-                                                                        <Label for="exampleCity">City</Label>
-                                                                        <Input type="text" name="city" id="exampleCity"/>
-                                                                    </FormGroup>
+                                                                   
                                                                 </Col>
                                                                 <Col md={4}>
-                                                                    <FormGroup>
-                                                                        <Label for="exampleState">State</Label>
-                                                                        <Input type="text" name="state" id="exampleState"/>
-                                                                    </FormGroup>
+                                                                    
                                                                 </Col>
                                                                 <Col md={2}>
-                                                                    <FormGroup>
-                                                                        <Label for="exampleZip">Zip</Label>
-                                                                        <Input type="text" name="zip" id="exampleZip"/>
-                                                                    </FormGroup>
+                                                                   
                                                                 </Col>
                                                             </Row>
                                                         </CardBody>
@@ -196,32 +169,16 @@ export default class FaqSection extends Component {
                                                                 aria-expanded={this.state.accordion[1]}
                                                                 aria-controls="collapseTwo">
                                                             <h3 className="form-heading">
-                                                                Credit Card Informations
-                                                                <p>Enter your user informations below</p>
+                                                                
                                                             </h3>
                                                         </Button>
                                                     </CardHeader>
                                                     <Collapse isOpen={this.state.accordion[1]} data-parent="#accordion"
                                                               id="collapseTwo">
                                                         <CardBody>
-                                                            <FormGroup>
-                                                                <Label for="exampleEmail5">Input without validation</Label>
-                                                                <Input/>
-                                                                <FormFeedback>You will not be able to see this</FormFeedback>
-                                                                <FormText>Example help text that remains unchanged.</FormText>
-                                                            </FormGroup>
-                                                            <FormGroup>
-                                                                <Label for="exampleEmail6">Valid input</Label>
-                                                                <Input valid/>
-                                                                <FormFeedback valid>Sweet! that name is available</FormFeedback>
-                                                                <FormText>Example help text that remains unchanged.</FormText>
-                                                            </FormGroup>
-                                                            <FormGroup>
-                                                                <Label for="examplePassword">Invalid input</Label>
-                                                                <Input invalid/>
-                                                                <FormFeedback>Oh noes! that name is already taken</FormFeedback>
-                                                                <FormText>Example help text that remains unchanged.</FormText>
-                                                            </FormGroup>
+                                                          
+                                                           
+                                                            
                                                         </CardBody>
                                                     </Collapse>
                                                 </Card>
@@ -232,50 +189,14 @@ export default class FaqSection extends Component {
                                                                 aria-expanded={this.state.accordion[2]}
                                                                 aria-controls="collapseThree">
                                                             <h3 className="form-heading">
-                                                                Personal Details
-                                                                <p>Enter your user informations below</p>
+                                                                
                                                             </h3>
                                                         </Button>
                                                     </CardHeader>
                                                     <Collapse isOpen={this.state.accordion[2]} data-parent="#accordion"
                                                               id="collapseThree">
                                                         <CardBody>
-                                                            <FormGroup>
-                                                                <Label for="exampleEmail5">Input without validation</Label>
-                                                                <Input/>
-                                                                <FormFeedback>You will not be able to see this</FormFeedback>
-                                                                <FormText>Example help text that remains unchanged.</FormText>
-                                                            </FormGroup>
-                                                            <FormGroup>
-                                                                <Label for="exampleEmail6">Valid input</Label>
-                                                                <Input valid/>
-                                                                <FormFeedback valid>Sweet! that name is available</FormFeedback>
-                                                                <FormText>Example help text that remains unchanged.</FormText>
-                                                            </FormGroup>
-                                                            <FormGroup>
-                                                                <Label for="examplePassword">Invalid input</Label>
-                                                                <Input invalid/>
-                                                                <FormFeedback>Oh noes! that name is already taken</FormFeedback>
-                                                                <FormText>Example help text that remains unchanged.</FormText>
-                                                            </FormGroup>
-                                                            <FormGroup>
-                                                                <Label for="exampleEmail7">Input without validation</Label>
-                                                                <Input/>
-                                                                <FormFeedback tooltip>You will not be able to see this</FormFeedback>
-                                                                <FormText>Example help text that remains unchanged.</FormText>
-                                                            </FormGroup>
-                                                            <FormGroup>
-                                                                <Label for="exampleEmail">Valid input</Label>
-                                                                <Input valid/>
-                                                                <FormFeedback valid tooltip>Sweet! that name is available</FormFeedback>
-                                                                <FormText>Example help text that remains unchanged.</FormText>
-                                                            </FormGroup>
-                                                            <FormGroup>
-                                                                <Label for="examplePassword">Invalid input</Label>
-                                                                <Input invalid/>
-                                                                <FormFeedback tooltip>Oh noes! that name is already taken</FormFeedback>
-                                                                <FormText>Example help text that remains unchanged.</FormText>
-                                                            </FormGroup>
+                              
                                                         </CardBody>
                                                     </Collapse>
                                                 </Card>

@@ -25,8 +25,8 @@ export default class AnalyticsDashboard extends Component {
                     transitionEnter={false}
                     transitionLeave={false}>
                     <PageTitle
-                        heading="Analytics Dashboard"
-                        subheading="This is an example dashboard created using build-in elements and components."
+                        heading="管理者介面"
+                        // subheading="This is an example dashboard created using build-in elements and components."
                         icon="pe-7s-car icon-gradient bg-mean-fruit"
                     />
                     <Tabs
@@ -34,8 +34,8 @@ export default class AnalyticsDashboard extends Component {
                         renderTabBar={() => <ScrollableInkTabBar/>}
                         renderTabContent={() => <TabContent/>}
                     >
-                        <TabPane tab='Variation 1' key="1"><AnalyticsDashboard1/></TabPane>
-                        <TabPane tab='Variation 2' key="2"><AnalyticsDashboard2/></TabPane>
+                        <TabPane tab='部門' key="1"><AnalyticsDashboard1/></TabPane>
+                        <TabPane tab='主管' key="2"><AnalyticsDashboard2/></TabPane>
                     </Tabs>
                 </ReactCSSTransitionGroup>
             </Fragment>

@@ -4,8 +4,6 @@ import PageTitle from '../../../Layout/AppMain/DevPageTitle';
 
 
 
-
-
 export default class Devboxes extends React.Component {
 
     render() {

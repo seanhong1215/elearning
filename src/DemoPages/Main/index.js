@@ -27,6 +27,7 @@ class Main extends React.Component {
             closedSmallerSidebar,
             enableMobileMenu,
             enablePageTabsAlt,
+           
         } = this.props;
 
         return (
@@ -43,6 +44,7 @@ class Main extends React.Component {
                             {'closed-sidebar-mobile': closedSmallerSidebar || width < 1250},
                             {'sidebar-mobile-open': enableMobileMenu},
                             {'body-tabs-shadow-btn': enablePageTabsAlt},
+                            
                         )}>
                             <AppMain/>
                         </div>

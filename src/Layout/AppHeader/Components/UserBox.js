@@ -83,7 +83,7 @@ class UserBox extends React.Component {
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
-                                                <NavLink href="javascript:void(0);">
+                                                <NavLink href="#/pages/login">
                                                     登出
                                                 </NavLink>
                                             </NavItem>

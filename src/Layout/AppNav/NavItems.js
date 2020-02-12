@@ -3,22 +3,32 @@ export const MainNav = [
     {
         icon: 'pe-7s-bell',
         label: '公告訊息',
-        to: '#/dev/devboxes/test01',
+        to: '#/apps/faq-section',
     },
+];
+
+export const WidgetsNav = [
     {
-        icon: 'pe-7s-study',
-        label: '課程選單',
-         content: [
+        icon: 'pe-7s-medal',
+        label: '課程中心',
+        content: [
             {
-                label: '最新課程',
-                to: '#/components/tabs',
+                label: '新人基礎訓練',
+                to: '#/dev/course/basic',
             },
             {
-                label: '建議課程',
-                to: '#/components/tabs',
+                label: '在職進修課程',
+                to: '#/dev/course/advanced',
+
             },
+            {
+                label: '專業技能培養',
+                to: '#/dev/course/profession',
+            },
+            
         ],
     },
+   
     {
         icon: 'pe-7s-timer',
         label: '學習紀錄',
@@ -27,126 +37,23 @@ export const MainNav = [
                 label: '近期學習',
                 to: '#/tables/regular-tables',
             },
-            {
-                label: '尚未完成',
-                to: '#/dev/devboxes/test05',
-            },
+           
         ],
     }
 ];
+
 export const ComponentsNav = [
     {
         icon: 'pe-7s-notebook',
         label: '教材庫',
         content: [
             {
-                label: '上傳/下載',
-                to: '#/dev/devboxes/test06',
+                label: '下載',
+                // to: '#/dev',
             },
-            {
-                label: '教材權限',
-                to: '#/dev/devboxes/test07',
-
-            },
-            {
-                label: '題庫模式',
-                to: '#/dev/devboxes/test08',
-            },
-            {
-                label: '題庫分析',
-                to: '#/dev/devboxes/test09',
-
-            },
-        ],
-    },
-    {
-        icon: 'pe-7s-paperclip',
-        label: '培訓管理',
-        content: [
-            {
-                label: '培訓計畫',
-                to: '#/dev/devboxes/test10',
-            },
-            {
-                label: '培訓費用管理',
-                to: '#/dev/devboxes/test11',
-            },
-            {
-                label: '審批',
-                to: '#/dev/devboxes/test12',
-            },
-            {
-                label: '培訓報告紀錄',
-                to: '#/dev/devboxes/test13',
-            },
-        ],
-    },
-];
-export const WidgetsNav = [
-    {
-        icon: 'pe-7s-medal',
-        label: '學習中心',
-        content: [
-            {
-                label: '課程選單',
-                to: '#/dev/devboxes/test14',
-            },
-            {
-                label: '線上測驗',
-                to: '#/dev/devboxes/test15',
-
-            },
-            {
-                label: '學習紀錄',
-                to: '#/dev/devboxes/test16',
-            },
-            {
-                label: '報名系統',
-                to: '#/dev/devboxes/test17',
-
-            },
-        ],
-    },
-    
-];
-export const FormsNav = [
-    {
-        icon: 'pe-7s-config',
-        label: '個人資料',
-        content: [
-            {
-                label: '最大權限者',
-                to: '#/dev/devboxes/test18',
-            },
-            {
-                label: '主管階層',
-                to: '#/dev/devboxes/test19',
-
-            },
-            {
-                label: '一般員工',
-                to: '#/dev/devboxes/test20',
-            },
-        ],
-    },
-    {
-        icon: 'pe-7s-power',
-        label: '登出',
-        to: '#',
+        ]
     }
 ];
-export const ChartsNav = [
-    // {
-    //     icon: 'pe-7s-graph2',
-    //     label: 'ChartJS',
-    //     to: '#/charts/chartjs',
-    // },
-];
-
-
-
-
-
 
 // export const MainNav = [
 //     {

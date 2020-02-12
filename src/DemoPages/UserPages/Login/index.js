@@ -9,6 +9,15 @@ import bg3 from '../../../assets/utils/images/originals/citynights.jpg';
 import {Col, Row, Button, Form, FormGroup, Label, Input} from 'reactstrap';
 
 export default class Login extends Component {
+
+    constructor(props) {
+        super(props);
+        this.toggle = this.toTarget;
+    }
+
+    toTarget () {
+        window.location.href = "#/dashboards/analytics";
+        }
     render() {
         let settings = {
             dots: true,
@@ -114,7 +123,7 @@ export default class Login extends Component {
                                             <div className="ml-auto">
                                                 <a href="javascript:void(0);" className="btn-lg btn btn-link">Recover
                                                     Password</a>{' '}{' '}
-                                                <Button color="primary" size="lg">Login to Dashboard</Button>
+                                                <Button color="primary" size="lg" onClick={this.toggle}>Login to Dashboard</Button >
                                             </div>
                                         </div>
                                     </Form>

@@ -186,7 +186,7 @@ export default class AnalyticsDashboard1 extends Component {
                             <div
                                 className="card-header-title font-size-lg text-capitalize font-weight-normal">
                                 <i className="header-icon lnr-charts icon-gradient bg-happy-green"> </i>
-                                Portfolio Performance
+                                課程管理
                             </div>
                             <div className="btn-actions-pane-right text-capitalize">
                                     <span className="d-inline-block ml-2" style={{width: 200}}>
@@ -207,12 +207,13 @@ export default class AnalyticsDashboard1 extends Component {
                                     </div>
                                     <div className="widget-chart-content">
                                         <div className="widget-subheading">
-                                            Cash Deposits
+                                            上課同仁觀看次數
                                         </div>
                                         <div className="widget-numbers">
                                             1,7M
                                         </div>
-                                        <div className="widget-description opacity-8 text-focus">
+                                        {/* 隱藏功能 */}
+                                        <div className="widget-description opacity-8 text-focus d-none">
                                             <div className="d-inline text-danger pr-1">
                                                 <FontAwesomeIcon icon={faAngleDown}/>
                                                 <span className="pl-1">54.1%</span>
@@ -231,7 +232,7 @@ export default class AnalyticsDashboard1 extends Component {
                                     </div>
                                     <div className="widget-chart-content">
                                         <div className="widget-subheading">
-                                            Invested Dividents
+                                            同仁學習進度表
                                         </div>
                                         <div className="widget-numbers">
                                             <CountUp start={0}
@@ -244,7 +245,8 @@ export default class AnalyticsDashboard1 extends Component {
                                                      suffix="M"
                                                      duration="5"/>
                                         </div>
-                                        <div className="widget-description opacity-8 text-focus">
+                                        {/* 隱藏功能 */}
+                                        <div className="widget-description opacity-8 text-focus d-none">
                                             Grow Rate:
                                             <span className="text-info pl-1">
                                                     <FontAwesomeIcon icon={faAngleDown}/>
@@ -263,7 +265,7 @@ export default class AnalyticsDashboard1 extends Component {
                                     </div>
                                     <div className="widget-chart-content">
                                         <div className="widget-subheading">
-                                            Capital Gains
+                                            完成課程的主管
                                         </div>
                                         <div className="widget-numbers text-success">
                                             <CountUp start={0}
@@ -276,7 +278,8 @@ export default class AnalyticsDashboard1 extends Component {
                                                      suffix=""
                                                      duration="7"/>
                                         </div>
-                                        <div className="widget-description text-focus">
+                                         {/* 隱藏功能 */}
+                                        <div className="widget-description text-focus d-none">
                                             Increased by
                                             <span className="text-warning pl-1">
                                                 <FontAwesomeIcon icon={faAngleUp}/>
@@ -293,7 +296,7 @@ export default class AnalyticsDashboard1 extends Component {
                                         <Ionicon color="#ffffff" icon="ios-analytics-outline" beat={true}/>
                                     </span>
                                 <span className="mr-1">
-                                        View Complete Report
+                                        看完整報表
                                     </span>
                             </Button>
                         </CardFooter>
@@ -305,7 +308,7 @@ export default class AnalyticsDashboard1 extends Component {
                                     <div
                                         className="card-header-title font-size-lg text-capitalize font-weight-normal">
                                         <i className="header-icon lnr-cloud-download icon-gradient bg-happy-itmeo"> </i>
-                                        Technical Support
+                                        每周/每月學習進度
                                     </div>
 
                                     <div className="btn-actions-pane-right text-capitalize actions-icon-btn">
@@ -314,7 +317,8 @@ export default class AnalyticsDashboard1 extends Component {
                                                 <i className="pe-7s-menu btn-icon-wrapper"/>
                                             </DropdownToggle>
                                             <DropdownMenu
-                                                className="dropdown-menu-right rm-pointers dropdown-menu-shadow dropdown-menu-hover-link">
+                                            // 隱藏功能
+                                                className="dropdown-menu-right rm-pointers dropdown-menu-shadow dropdown-menu-hover-link d-none">
                                                 <DropdownItem header>Header</DropdownItem>
                                                 <DropdownItem>
                                                     <i className="dropdown-icon lnr-inbox"> </i>
@@ -543,7 +547,7 @@ export default class AnalyticsDashboard1 extends Component {
                                     <div
                                         className="card-header-title font-size-lg text-capitalize font-weight-normal">
                                         <i className="header-icon lnr-lighter icon-gradient bg-amy-crisp"> </i>
-                                        Timeline Example
+                                        問答區
                                     </div>
                                     <div className="btn-actions-pane-right text-capitalize actions-icon-btn">
                                         <UncontrolledButtonDropdown>
@@ -756,7 +760,7 @@ export default class AnalyticsDashboard1 extends Component {
                             </Card>
                         </Col>
                     </Row>
-                    <Row>
+                    {/* <Row>
                         <Col md="6" xl="3">
                             <div
                                 className="card mb-3 widget-chart widget-chart2 text-left card-btm-border card-shadow-success border-success">
@@ -917,13 +921,13 @@ export default class AnalyticsDashboard1 extends Component {
                                 </div>
                             </div>
                         </Col>
-                    </Row>
+                    </Row> */}
                     <Card className="mb-3">
                         <CardHeader className="card-header-tab">
                             <div
                                 className="card-header-title font-size-lg text-capitalize font-weight-normal">
                                 <i className="header-icon lnr-laptop-phone mr-3 text-muted opacity-6"> </i>
-                                Easy Dynamic Tables
+                                部門人員管理
                             </div>
                             <div className="btn-actions-pane-right actions-icon-btn">
                                 <UncontrolledButtonDropdown>
@@ -992,7 +996,7 @@ export default class AnalyticsDashboard1 extends Component {
                             />
                         </CardBody>
                     </Card>
-                    <Row>
+                    {/* <Row>
                         <Col sm="12" lg="6">
                             <Card className="card-hover-shadow-2x mb-3">
                                 <CardHeader className="card-header-tab">
@@ -1514,8 +1518,8 @@ export default class AnalyticsDashboard1 extends Component {
                                 </CardFooter>
                             </Card>
                         </Col>
-                    </Row>
-                    <div className="card no-shadow bg-transparent no-border rm-borders mb-3">
+                    </Row> */}
+                    {/* <div className="card no-shadow bg-transparent no-border rm-borders mb-3">
                         <Card>
                             <Row className="no-gutters">
                                 <Col md="12" lg="4">
@@ -1658,7 +1662,7 @@ export default class AnalyticsDashboard1 extends Component {
                                 </Col>
                             </Row>
                         </Card>
-                    </div>
+                    </div> */}
                 </Container>
             </Fragment>
         )

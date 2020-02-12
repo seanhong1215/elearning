@@ -27,8 +27,6 @@ export default class Custom extends React.Component {
         }
 
 
-   
-
     render() {
 
         return (

@@ -463,7 +463,7 @@ export default class AnalyticsDashboard2 extends Component {
                             </Card>
                         </Col>
                     </Row>
-                    <Row>
+                    {/* <Row>
                         <Col md="12" lg="6" xl="6">
                             <Card className="card-hover-shadow-2x mb-3">
                                 <CardHeader>Chat Box</CardHeader>
@@ -785,7 +785,7 @@ export default class AnalyticsDashboard2 extends Component {
                                 </CardFooter>
                             </Card>
                         </Col>
-                    </Row>
+                    </Row> */}
                     <div className="card no-shadow bg-transparent no-border rm-borders mb-3">
                         <Card>
                             <Row className="no-gutters">
