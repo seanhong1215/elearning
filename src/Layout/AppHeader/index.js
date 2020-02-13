@@ -12,7 +12,7 @@ import SearchBox from './Components/SearchBox';
 import UserBox from './Components/UserBox';
 // import HeaderRightDrawer from "./Components/HeaderRightDrawer";
 
-// import HeaderDots from "./Components/HeaderDots";
+import HeaderDots from "./Components/HeaderDots";
 
 class Header extends React.Component {
     render() {
@@ -43,7 +43,7 @@ class Header extends React.Component {
                             {/* <MegaMenu/> */}
                         </div>
                         <div className="app-header-right">
-                            {/* <HeaderDots/> */}
+                            <HeaderDots/>
                             <UserBox/>
                             {/* <HeaderRightDrawer/> */}
                         </div>

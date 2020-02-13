@@ -55,18 +55,18 @@ class UserBox extends React.Component {
                                     </DropdownToggle>
                                     <DropdownMenu right className="rm-pointers dropdown-menu-lg">
                                         <Nav vertical>
-                                            <NavItem className="nav-item-header">
+                                            {/* <NavItem className="nav-item-header">
                                                 我的課程
-                                            </NavItem>
-                                            <NavItem>
+                                            </NavItem> */}
+                                            {/* <NavItem>
                                                 <NavLink href="javascript:void(0);">
                                                     通知
                                                     <div className="ml-auto badge badge-pill badge-info">8</div>
                                                 </NavLink>
-                                            </NavItem>
-                                            <NavItem>
+                                            </NavItem> */}
+                                            {/* <NavItem>
                                                 <NavLink href="javascript:void(0);">訊息</NavLink>
-                                            </NavItem>
+                                            </NavItem> */}
                                             <NavItem className="nav-item-header">
                                                 我的帳號
                                             </NavItem>

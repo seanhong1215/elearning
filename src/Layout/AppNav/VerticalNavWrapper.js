@@ -23,7 +23,7 @@ class Nav extends Component {
                 <div className="metismenu vertical-nav-menu">
                     <ul className="metismenu-container">
                         <li className="metismenu-item">
-                            <a className="metismenu-link" href="/">
+                            <a className="metismenu-link" href="/dashboards/analytics">
                                 <i className="metismenu-icon pe-7s-home"></i>
                                 Dashboard
                             </a>
