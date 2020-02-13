@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/elearning/static/media/1.72854501.png"
   },
   {
-    "revision": "d6a96ef68574c190d213",
+    "revision": "2659f2e9b3753b16f4b2",
     "url": "/elearning/static/js/main.1622404b.chunk.js"
   },
   {
@@ -104,20 +104,20 @@ self.__precacheManifest = [
     "url": "/elearning/static/media/city1.ebc5562d.jpg"
   },
   {
-    "revision": "12f0820c451bdc75f4d1ef97732bf6e8",
-    "url": "/elearning/static/media/rw-widgets.12f0820c.woff"
-  },
-  {
     "revision": "bc7c4a59f924cf037aad6e1f9edba366",
     "url": "/elearning/static/media/rw-widgets.bc7c4a59.eot"
   },
   {
-    "revision": "eceddf474df95d8d4a7e316668c3be85",
-    "url": "/elearning/static/media/rw-widgets.eceddf47.ttf"
-  },
-  {
     "revision": "792dcd18baf5f544aabcad1883d673c2",
     "url": "/elearning/static/media/rw-widgets.792dcd18.svg"
+  },
+  {
+    "revision": "12f0820c451bdc75f4d1ef97732bf6e8",
+    "url": "/elearning/static/media/rw-widgets.12f0820c.woff"
+  },
+  {
+    "revision": "eceddf474df95d8d4a7e316668c3be85",
+    "url": "/elearning/static/media/rw-widgets.eceddf47.ttf"
   },
   {
     "revision": "03e91f122aa5fd425abbe23c85546eb0",
@@ -140,16 +140,16 @@ self.__precacheManifest = [
     "url": "/elearning/static/media/Linearicons-Free.2f3e9f80.ttf"
   },
   {
+    "revision": "71394c0c7ad6c1e7d5c77e8ac292fba5",
+    "url": "/elearning/static/media/Pe-icon-7-stroke.71394c0c.eot"
+  },
+  {
     "revision": "b38ef310874bdd008ac14ef3db939032",
     "url": "/elearning/static/media/Pe-icon-7-stroke.b38ef310.woff"
   },
   {
     "revision": "01798bc13e33afc36a52f2826638d386",
     "url": "/elearning/static/media/Pe-icon-7-stroke.01798bc1.ttf"
-  },
-  {
-    "revision": "71394c0c7ad6c1e7d5c77e8ac292fba5",
-    "url": "/elearning/static/media/Pe-icon-7-stroke.71394c0c.eot"
   },
   {
     "revision": "c45f7de008ab976a8e817e3c0e5095ca",
@@ -1308,8 +1308,8 @@ self.__precacheManifest = [
     "url": "/elearning/static/media/abstract9.fbf8d4ee.jpg"
   },
   {
-    "revision": "d6a96ef68574c190d213",
-    "url": "/elearning/static/css/main.273048c4.chunk.css"
+    "revision": "2659f2e9b3753b16f4b2",
+    "url": "/elearning/static/css/main.b8643aae.chunk.css"
   },
   {
     "revision": "6ab728cf8c41b532dcbd",
@@ -1320,7 +1320,7 @@ self.__precacheManifest = [
     "url": "/elearning/static/css/14.8b9a6f5c.chunk.css"
   },
   {
-    "revision": "df6fd69b8809c75c836cfebbff4ee97a",
+    "revision": "02edc85e1ddd43dc09b8e6a2e59b4e91",
     "url": "/elearning/index.html"
   }
 ];
